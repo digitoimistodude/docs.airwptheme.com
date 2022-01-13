@@ -23,13 +23,7 @@ npm install vue axios --save
 
 Open `gulp/webpack.config.dev.js` and make it look like the following (the actual changes to default configs are loading up vue-loader (the first line here) and adding vue-related test, loader, resolve, alias and plugins):
 
-```js
-/**
- * @Author: Roni Laukkarinen
- * @Date:   2021-11-05 11:58:54
- * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2022-01-05 15:42:31
- */
+```javascript
 module.exports = {
   externals: {
     jquery: 'jQuery' // Available and loaded through WordPress.
@@ -77,7 +71,7 @@ module.exports = {
 
 Next make `gulp/webpack.prod.js` look like this:
 
-```js
+```javascript
 module.exports = {
   optimization: {
     minimize: true,
@@ -169,13 +163,7 @@ If you are using VSCode, add following to your settings.json to prevent filehead
 
 Create folder under theme directory `js/src/apps`. Add subfolder `js/src/apps/search`. Add subfolders `js/src/apps/search/inc` and `js/src/apps/search/views`. Under `inc` folder add `api.js` as following. Again, replace `textdomain` with correct textdomain.
 
-```js
-/**
- * @Author: Roni Laukkarinen
- * @Date:   2021-12-21 13:02:02
- * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2022-01-07 10:06:52
- */
+```javascript
 import axios from 'axios';
 
 const apiURL = window.textdomain_apiURL;
