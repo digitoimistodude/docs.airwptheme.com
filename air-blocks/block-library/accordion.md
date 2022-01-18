@@ -9,7 +9,7 @@ description: A block that contains simple and fully accessible accordions.
 **Block name:** `accordion`.
 
 {% hint style="warning" %}
-This block is still under construction!
+This block is still under construction! The block UI is ready, but no bash script available just yet. Please hang in there.
 {% endhint %}
 
 #### Affected files
