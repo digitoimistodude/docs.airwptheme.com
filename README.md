@@ -4,6 +4,10 @@ description: Air-light is a minimal, professional starter theme for WordPress.
 
 # Introduction
 
+{% hint style="info" %}
+Hello there! The documentation here at docs.airwptheme.com is still under construction. Please see [Wiki](https://github.com/digitoimistodude/air-light/wiki) in the meantime. Thank you for your patience!
+{% endhint %}
+
 ## Air-light
 
 Air-light (or simply _Air_) is designed to be a ultra minimal (< 20 kB) starting point. It is originally developed for a WordPress project by the dear developers at [Digitoimisto Dude Oy](https://www.dude.fi), a Finnish boutique digital agency in the center of Jyväskylä. Theme is originally based on [\_s](https://github.com/automattic/\_s). Our goal is to have no excess code. We'll keep the theme always up to date in real time so it usually has **daily updates**.
