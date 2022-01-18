@@ -1,10 +1,10 @@
 # Table of contents
 
+## 💻 Getting started
+
 * [Introduction](README.md)
-
-## 💻 Installing Air
-
-* [Install using macOS LEMP & dudestack](installing-air/install-using-macos-lemp-and-dudestack.md)
+* [Installing Air-light](getting-started/installing-air-light/README.md)
+  * [Install using macOS LEMP & dudestack](getting-started/installing-air-light/install-using-macos-lemp-and-dudestack.md)
 
 ## ℹ Guides
 
