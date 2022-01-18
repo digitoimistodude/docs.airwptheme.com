@@ -6,6 +6,8 @@ description: A block that contains simple and fully accessible accordions.
 
 ### Block details
 
+This block JS side is based on the [W3.org Accessible Accordion](https://www.w3.org/TR/wai-aria-practices-1.1/examples/accordion/accordion.html).
+
 **Block name:** `accordion`.
 
 {% hint style="warning" %}
