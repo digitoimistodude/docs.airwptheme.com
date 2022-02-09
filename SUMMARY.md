@@ -15,3 +15,4 @@
 ## Working with ACF blocks
 
 * [Caching](working-with-acf-blocks/caching.md)
+* [Query Monitor support](working-with-acf-blocks/query-monitor-support.md)
