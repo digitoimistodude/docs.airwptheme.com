@@ -113,12 +113,17 @@ Use the following template to add sh file under _bin/blocks/._ Remember to add N
 # @Last Modified time: 2022-02-10 12:23:18
 
 # // New files/Dependencies (this file will install them)::
-# // ├── sass/gutenberg/blocks/_carousel.scss (automatic from get-block.sh)
-# // ├── node_modules/slick-carousel (automatic from theme npm)
+# // ├── sass/gutenberg/blocks/_example.scss (automatic from get-block.sh)
+# // ├── node_modules/example (automatic from theme npm)
 # // ├── sass/features/_slick.scss
+# // └── svg/block-icons/example.svg (automatic from get-block.sh)
+
+# // Changes to files/folders:
+# // ├── sass/gutenberg/_blocks.scss (automatic from get-block.sh)
 # // ├── js/src/front-end.js
 # // ├── js/src/gutenberg-editor.js
-# // └── svg/block-icons/carousel.svg
+# // ├── acf-json/
+# // └── functions.php
 
 # Block specific variables
 export BLOCK_ACF_JSON_FILE="XXXXXX.json"
@@ -146,8 +151,8 @@ cp -nv ${AIRBLOCKS_THEME_PATH}/svg/XXXXXX.svg ${PROJECT_THEME_PATH}/svg/
 # Please note: The title of the block will be translated in localization.sh if en is selected
 sed -e "/\'acf_blocks\' \=\> \[/a\\
       [|\
-       'name' => 'accordion',|\
-       'title' => 'Haitari',|\
+       'name' => 'example',|\
+       'title' => 'Example',|\
       ],\\" < ${PROJECT_THEME_PATH}/functions.php | tr '|' '\n' > ${PROJECT_THEME_PATH}/tmpfile
 
 ```
