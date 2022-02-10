@@ -138,6 +138,9 @@ cp -nv ${AIRBLOCKS_THEME_PATH}/sass/components/_XXXXXX.scss ${PROJECT_THEME_PATH
 # JavaScript dependencies
 cp -nv ${AIRBLOCKS_THEME_PATH}/js/src/modules/XXXXXX.js ${PROJECT_THEME_PATH}/js/src/modules/
 
+# JS direct replaces
+LC_ALL=C sed -i '' -e "s;\/\/ import slick from \'slick-carousel\'\;;import slick from \'slick-carousel\'\;;" ${PROJECT_THEME_PATH}/js/src/front-end.js
+
 # Import js modules right after the last default js module in the front-end.js file
 sed -e "/\import \'what-input\'\;/a\\
 import './modules/XXXXXX';" < ${PROJECT_THEME_PATH}/js/src/front-end.js > ${PROJECT_THEME_PATH}/js/src/front-end-with-changes.js
