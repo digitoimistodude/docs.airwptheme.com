@@ -147,6 +147,12 @@ import './modules/XXXXXX';" < ${PROJECT_THEME_PATH}/js/src/front-end.js > ${PROJ
 rm ${PROJECT_THEME_PATH}/js/src/front-end.js
 mv ${PROJECT_THEME_PATH}/js/src/front-end-with-changes.js ${PROJECT_THEME_PATH}/js/src/front-end.js
 
+# Import js modules right after the last default js module in the gutenberg-editor.js file
+sed -e "/\import\/no-unresolved \*\//a\\
+import slick from 'slick-carousel';" < ${PROJECT_THEME_PATH}/js/src/gutenberg-editor.js > ${PROJECT_THEME_PATH}/js/src/gutenberg-editor-with-changes.js
+rm ${PROJECT_THEME_PATH}/js/src/gutenberg-editor.js
+mv ${PROJECT_THEME_PATH}/js/src/gutenberg-editor-with-changes.js ${PROJECT_THEME_PATH}/js/src/gutenberg-editor.js
+
 # Other SVG icons needed by this block
 cp -nv ${AIRBLOCKS_THEME_PATH}/svg/XXXXXX.svg ${PROJECT_THEME_PATH}/svg/
 
