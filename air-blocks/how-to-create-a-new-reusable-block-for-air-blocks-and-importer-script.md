@@ -11,7 +11,7 @@ This tutorial will show you how to create a new block with:
 ### 1. Create a block php file
 
 {% hint style="info" %}
-**Please note:** We'll add a "block adder" feature to newblock script soon! You can select question mark and create empty block template in the future.
+**Please note:** This can be now done with `newblock` command.
 {% endhint %}
 
 First you'll have to create a new block template to _template-parts/blocks/your-block.php_:
