@@ -100,6 +100,10 @@ Go to wp-admin, **Custom fields > Add New**, add fields, select in **Location** 
 
 Use the following template to add sh file under _bin/blocks/._ Remember to add New files/Dependencies as comments first to clarify things before additions.
 
+{% hint style="info" %}
+Please look for tips in a similar block, because block importers vary a lot. For example carousel has more js additions as where title and content do not have JavaScript at all. Below here is just an example, not a complete one. It makes no sense to create a template about this because scripts vary so much per block.
+{% endhint %}
+
 {% code title="bin/blocks/example.sh" %}
 ```bash
 #!/bin/bash
