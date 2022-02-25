@@ -36,6 +36,8 @@ newblock
 
 This will ask block name, project name and theme name.
 
+![](<../../.gitbook/assets/2022-02-25 11.15.44.gif>)
+
 ### Preview blocks
 
 You can freely preview all available blocks at [blocks.airwptheme.com](https://blocks.airwptheme.com):
