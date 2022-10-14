@@ -1,5 +1,9 @@
 # How to create a new reusable block for air-blocks and importer script
 
+{% hint style="info" %}
+Please note: This tutorial is about how to add block to the block _import script_ and **not** how to create your own blocks! These steps are mostly for [Dude](https://www.dude.fi) staff only.
+{% endhint %}
+
 This tutorial will show you how to create a new block with:
 
 * PHP block template assets

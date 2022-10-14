@@ -1,6 +1,6 @@
 # Caching
 
-All ACF blocks that are rendered with default functionality by using `render_acf_block` callback are cached. By default, WordPress Core object cache is not that useful so we recommend replacing it with something like [Object Cache Pro](https://objectcache.pro) -plugin that uses Redis.
+All ACF blocks that are rendered with default functionality by using `render_acf_block` callback are cached. By default, WordPress Core object cache is not that useful so we recommend replacing it with something like [Object Cache Pro](https://objectcache.pro/) -plugin that uses Redis.
 
 ### Cache lifetime & invalidation
 

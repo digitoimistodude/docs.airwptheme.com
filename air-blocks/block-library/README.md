@@ -40,6 +40,6 @@ This will ask block name, project name and theme name.
 
 ### Preview blocks
 
-You can freely preview all available blocks at [blocks.airwptheme.com](https://blocks.airwptheme.com):
+You can freely preview all available blocks at [blocks.airwptheme.com](https://blocks.airwptheme.com/):
 
 {% embed url="https://blocks.airwptheme.com" %}

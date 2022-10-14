@@ -17,7 +17,7 @@ This is an option we at here [Dude agency](https://github.com/digitoimistodude) 
 ### Install
 
 1. Set up [macos-lemp-stack](https://github.com/digitoimistodude/macos-lemp-setup#installation-steps) by following the instructions on GitHub.
-2. Ensure that [http://localhost](http://localhost) works and \~/Projects is linked to /var/www and both exist
+2. Ensure that [http://localhost](http://localhost/) works and \~/Projects is linked to /var/www and both exist
 3. Install [dudestack](https://github.com/digitoimistodude/dudestack#installation) by following instructions provided in the repository
 4. Install [debuggers for gulp and for your editor](https://github.com/digitoimistodude/air-light#debuggers)
 5. Create a new project by using dudestack's `createproject` command (explained [here](https://github.com/digitoimistodude/dudestack#starting-a-new-project-with-createproject-bash-script))
